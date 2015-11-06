@@ -1,0 +1,21 @@
+body {
+    padding-top: 40px;
+	font-family: 'Droid Serif', sans-serif;    
+}
+
+.takal {
+  font-family: 'Droid Serif', sans-serif;
+  width: 100%;
+  background: #ADD8E6;  
+}
+
+h1 { 
+font-family: 'Droid Serif';
+color: #CE4760;
+font-size: 5em;
+font-weight: 400;
+}
+
+h2	{
+  font-family: 'Droid Serif', sans-serif;
+}

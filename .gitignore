@@ -1,0 +1,7 @@
+*.bak
+*.orig
+output
+*.pid
+*.git
+cache
+sync.sh

@@ -1,0 +1,54 @@
+{% if DISPLAY_TAGS_ON_SIDEBAR is not defined %}
+    {% set DISPLAY_TAGS_ON_SIDEBAR = True %}
+{% endif %}
+
+
+            {% if DISPLAY_RECENT_POSTS_ON_SIDEBAR %}
+                {% if RECENT_POST_COUNT is not defined %}
+                    {% set RECENT_POST_COUNT = 5 %}
+                {% endif %}
+<hr>
+          <div class="panel panel-default">
+            <div class="panel-heading">
+              <h3 class="panel-title">Berita simbaruna</h3>
+            </div>
+            <div class="panel-body">
+            <ul>
+                                {% for article in articles[:RECENT_POST_COUNT] %}
+                        <li>
+                            <a href="{{ SITEURL }}/{{ article.url }}">
+                                {{ article.title }}
+                            </a>
+                        </li>
+                    {% endfor %}
+            </ul>
+            </div>
+          </div>
+
+            {% endif %}
+
+            {% if DISPLAY_CATEGORIES_ON_SIDEBAR %}
+          <div class="panel panel-default">
+            <div class="panel-heading">
+              <h3 class="panel-title">Kategori</h3>
+            </div>
+            <div class="panel-body">
+            <ul>
+                    {% for cat, null in categories %}
+                        <li>
+                            <a href="{{ SITEURL }}/{{ cat.url }}">
+                            {{ cat }}
+                            </a>
+                        </li>
+                    {% endfor %}
+                </li>
+            </ul>
+            </div>
+          </div>
+
+            {% endif %}
+            <h4>Sidebanna</h4>
+            <a href="{{ SITEURL }}/{{ ARCHIVES_URL | default('archives.html') }}">Archives</a>
+            {% include 'includes/github.html' %}
+            {% include 'includes/links.html' %}
+
