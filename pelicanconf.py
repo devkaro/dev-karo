@@ -4,7 +4,7 @@ from __future__ import unicode_literals
 
 AUTHOR = 'surbakti'
 SITENAME = 'Dev Karo - Mekaro'
-SITEURL = ''
+SITEURL = 'https://dev.karo.or.id/'
 SUMMARY_MAX_LENGTH = 30
 TIMEZONE = 'Asia/Jakarta'
 
