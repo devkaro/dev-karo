@@ -5,6 +5,3 @@ output
 *.git
 cache
 sync.sh
-pelicanconf.pyc
-pelicanconf.py
-publishconf.py
