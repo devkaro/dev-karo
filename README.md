@@ -10,3 +10,6 @@ pedalan server
 ./develop_server.sh start
 ```
 buka bas browser `http://localhost:8000`
+
+### Demo
+link demona http://dev.karo.or.id
