@@ -5,8 +5,9 @@ Category: Radio Karo
 Tags: update
 Slug: update-radio-karo-online-2.4
 
-<h4>Update [Radio Karo] versi 2.4</h4>
+<h4>Update <a href="http://karo.or.id/radio" target="_blank">Radio Karo</a> versi 2.4</h4>
 - Gundari nggo pake SSL kerina ;)
 - Port sipake port 80 gelah la komplain Google Chrome
+- tambah favicon
 
-[Radio Karo]:http://karo.or.id/radio
+Update log ku versi 2.4
