@@ -19,26 +19,24 @@
 {% endblock %}
 
 {% block content %}
-    <section id="content">
-        <article>
 
-                <h2>
-                    <a href="{{ SITEURL }}/{{ article.url }}"
-                       rel="bookmark"
-                       title="Permalink to {{ article.title|striptags }}">
-                        {{ article.title }}
-                    </a>
-                </h2>
+    <div class="row">
+        <div class="col-md-12">
+                    <div class="card">
+                        <div class="card-header">
+                            {% include "includes/article_info.html" %}
+                        </div>
+                      <div class="card-body">
+                        <h2 class="card-title">
+                                {{ article.title }}
+                        </h2>
+                        <p class="card-text">{{ article.content }}</p>
+                      </div>
+                    </div>
+                    <br>
+        </div>
+    </div>
 
-                        {% include "includes/article_info.html" %} <br>
 
-                {{ article.content }}
-
-            <!-- /.entry-content -->
-            {% include 'includes/related-posts.html' %}
-            {% include 'includes/addthis.html' %}
-            {% include 'includes/comments.html' %}
-        </article>
-    </section>
 
 {% endblock %}

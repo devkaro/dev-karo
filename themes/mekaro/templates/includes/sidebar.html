@@ -7,48 +7,32 @@
                 {% if RECENT_POST_COUNT is not defined %}
                     {% set RECENT_POST_COUNT = 5 %}
                 {% endif %}
-<hr>
-          <div class="panel panel-default">
-            <div class="panel-heading">
-              <h3 class="panel-title">Berita simbaruna</h3>
-            </div>
-            <div class="panel-body">
-            <ul>
-                                {% for article in articles[:RECENT_POST_COUNT] %}
-                        <li>
-                            <a href="{{ SITEURL }}/{{ article.url }}">
-                                {{ article.title }}
-                            </a>
-                        </li>
-                    {% endfor %}
-            </ul>
-            </div>
-          </div>
+
+    <div class="card">
+      <div class="card-header">Berita simbaruna</div>
+      <ul class="list-group list-group-flush">
+        {% for article in articles[:RECENT_POST_COUNT] %}
+            <li class="list-group-item"><a href="{{ SITEURL }}/{{ article.url }}">{{ article.title }}</a></li>
+        {% endfor %}
+      </ul>
+    </div>
 
             {% endif %}
 
             {% if DISPLAY_CATEGORIES_ON_SIDEBAR %}
-          <div class="panel panel-default">
-            <div class="panel-heading">
-              <h3 class="panel-title">Kategori</h3>
-            </div>
-            <div class="panel-body">
-            <ul>
-                    {% for cat, null in categories %}
-                        <li>
-                            <a href="{{ SITEURL }}/{{ cat.url }}">
-                            {{ cat }}
-                            </a>
-                        </li>
-                    {% endfor %}
-                </li>
-            </ul>
-            </div>
-          </div>
+<br>
+    <div class="card">
+      <div class="card-header">Kategori</div>
+      <ul class="list-group list-group-flush">
+        {% for cat, null in categories %}
+            <li class="list-group-item"><a href="{{ SITEURL }}/{{ cat.url }}">{{ cat }}</a></li>
+        {% endfor %}
+      </ul>
+    </div>
+
 
             {% endif %}
-            <h4>Sidebanna</h4>
-            <a href="{{ SITEURL }}/{{ ARCHIVES_URL | default('archives.html') }}">Archives</a>
+
             {% include 'includes/github.html' %}
             {% include 'includes/links.html' %}
 

@@ -16,9 +16,9 @@ Piga-piga fitur si enggo rencanaken tamaken ku aplikasi enda
 4. API (enda prioritasna sikitikna)
 
 Piga-piga screenshotna 
-<img src="/gambar/arahlebe-aplikasi-android.png" class="img-responsive" alt="Tampilen Lebena">
+<img src="/gambar/arahlebe-aplikasi-android.png" class="img-fluid" alt="Tampilen Lebena">
 Adina sipilih lirikna bagenda tampilenna
-<img src="/gambar/contoh-lirikna.png" class="img-responsive" alt="Contoh Lirikna">
+<img src="/gambar/contoh-lirikna.png" class="img-fluid" alt="Contoh Lirikna">
 
 Adina gundari lanai jamanna rede adina erjabu mbaba kertas ;) baba HP Android makana enggo pas. Egia inget nggantisa beruna si ende-endendu e, ula kari kita mberat bas kerja e :D
 

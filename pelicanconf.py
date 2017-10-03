@@ -4,7 +4,7 @@ from __future__ import unicode_literals
 
 AUTHOR = 'surbakti'
 SITENAME = 'Dev Karo - Mekaro'
-SITEURL = 'https://dev.karo.or.id/'
+SITEURL = 'http://localhost:8000'
 SUMMARY_MAX_LENGTH = 30
 TIMEZONE = 'Asia/Jakarta'
 
@@ -22,7 +22,7 @@ FEED_ALL_RSS = 'feeds/all.rss.xml'
 DISPLAY_RECENT_POSTS_ON_SIDEBAR = True
 DISPLAY_CATEGORIES_ON_SIDEBAR = True
 
-DISPLAY_PAGES_ON_MENU =True
+DISPLAY_PAGES_ON_MENU = True
 DEFAULT_PAGINATION = 10
 STATIC_PATHS = ['gambar']
 

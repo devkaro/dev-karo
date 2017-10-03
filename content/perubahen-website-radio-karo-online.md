@@ -13,7 +13,7 @@ Piga-piga perubahen sibahan kami bas website <a href="http://www.karo.or.id/radi
 
 Tampilenna banci nenndu bas teruh enda
 <hr>kacibang
-<img src="gambar/radiokaroonlinev1.0.3.png" class="img-responsive">
+<img src="gambar/radiokaroonlinev1.0.3.png" class="img-fluid">
 <hr>/end kacibang
 
 

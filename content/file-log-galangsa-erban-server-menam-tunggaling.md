@@ -5,7 +5,7 @@ Category: News
 Tags: server, radio karo
 Slug: file-log-galangsa-erban-server-menam-tunggaling
 
-Piga-piga wari enda salah sada server [dev.karo] sipake man streaming ras ingan hosting project-project internal rempet mengkap-engkap, cek memory, disk I/O ras memoryna lalit masalahna. Enca nggo piga-piga dekahna dungna dat si erbansa masalah emekap file log ;) nggo lewat limit arah si bereken per akun, ras /tmp pe dem alu log-log si la penting.
+Piga-piga wari enda salah sada server [dev.karo] sipake man streaming ras ingan hosting project-project internal rempet mengkap-engkap, cek memory, disk I/O ras memoryna lalit masalahna. Enca nggo piga-piga dekahna dungna dat si erbansa masalah emekap file log ;) nggo lewat limit arah si bereken per akun, ras <<code>/tmp</code> pe dem alu log-log si la penting.
 
 ```
 [ndikkar@dev] ls -lah *.log
