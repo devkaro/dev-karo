@@ -1,10 +1,10 @@
 #!/bin/sh
 # Pelican Header generator
-# Sesuaiken ras blogndu pal 
+# Sesuaiken ras blogndu pal
 # adina lit sisalah ula sungkun aku, sungkun Dibata, curhatken man Dibata kerina kiniseran kegeluhenndu
 # linsesi bas Dibata sebab ia simbereken pemeteh
-# Cara makesa 
-# ./gen.sh "Judul Tulisenndu Uga Deba Ban Gedangna Yah"
+# Cara makesa
+# ./nulis-artikel.sh "Judul Tulisenndu Uga Deba Ban Gedangna Yah"
 
 
 Tanggal=$(date +"%Y-%m-%d %H:%M")
