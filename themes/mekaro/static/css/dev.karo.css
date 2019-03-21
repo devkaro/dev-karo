@@ -1,7 +1,7 @@
 body {
     padding-top: 3.5rem;
     background-color: #fbfbf5!important;
-	font-family: 'Droid Serif', sans-serif;
+    font-family: 'Fira Code'!important;
 }
 
 .card-title, h2 {
@@ -17,4 +17,3 @@ h1 {
     font-size: 5em;
     font-weight: 400;
 }
-
