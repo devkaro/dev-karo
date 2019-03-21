@@ -1,13 +1,13 @@
 # dev.karo.or.id
 
-## Build 
+## Build
 Gelahna banci i akses, install lebe [pelican] (http://docs.getpelican.com/).
 
 cloning repository enda
 
-pedalan server
+pedalan server (pelican 4.0+)
 ```
-./develop_server.sh start
+pelican -r  --listen -t themes/mekaro
 ```
 buka bas browser `http://localhost:8000`
 
